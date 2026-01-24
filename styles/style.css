@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    max-width: 1660px;
+    background-color: rgb(244, 236, 225);
+
+}
+body h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+
+    
+}
+.content {
+    border: 2px solid tomato;
+    background-color: rgb(185, 124, 45);
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+}
+.content img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.content h3 {
+    border: 1px solid blue;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content p {
+    border: 1px solid green;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
