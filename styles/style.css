@@ -13,10 +13,19 @@ body h2{
     font-size: 48px;
     text-align: center;
 }
+body h2 span {
+    color: orangered;
+    font-size: 50px;
+}
 .container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 20px;
     width: 90%;     
+}
+.big{
+    font-size: 30px;
+    font-weight: 500;
 }
 .content {
     background-color: rgb(244, 236, 225);
@@ -24,7 +33,7 @@ body h2{
     height: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 15px gray;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .content img {
     width: 100%;
